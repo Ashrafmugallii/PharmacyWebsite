@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+/* nav part  */
+#nav{
+    border-bottom: 1px solid #000;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #006778!important;
+    font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    padding: 0 10px;
+    border-right: 1px solid #006778;
+    margin: 15px 0;
+}
+.pipe{
+    border: none!important;
+}
+/* banner part start */
+#banner{
+    padding: 50px 0 ;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #000;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background: #000;
+    border-radius: 50%;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+/* widget part css */
+#widget{
+    padding: 100px 0 50px 0;
+}
+.widget-right p{
+    text-align: justify;
+}
+/* table part css */
+#table{
+    padding: 50px 0;
+}
+/* suppliment part css */
+#vitamin{
+    padding: 100px 0;
+}
+#vitamin h2{
+    font-size: 24px;
+}
+.round{
+    border-radius: 10%;
+}
+.rounded{
+    border-radius: 25px!important;
+    text-align: center;
+}
+.card-border{
+    border: none;
+}
+.img-border{
+    border: 1px solid #999;
+}
+/* login page css */
+
+/* about me css */
+#about{
+    padding: 100px 0;
+}
+.circle{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+.my-right{
+    position: relative;
+}
+.my-right::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 80%;
+    left: -10%;
+    top: 10%;
+    background-color: #1161ee;
+}
+/* contact css */
+.contact{
+    border: 2px solid #000;
+    border-radius: 25px;
+}
+.contact p{
+    font-size: 24px;
+
+}
+.contact p a{
+    color: #000;
+}
+.contact p i{
+    font-size: 24px;
+    padding: 0 15px;
+}
