@@ -1,14 +1,16 @@
+<!-- DEVELOPER: Ashraf Mugalli, IS117-102, Spring 2022 -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/contact-book.png">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Contact</title>
+    <link rel="shortcut icon" href="../images/drugs.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/slick.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>About Me</title>
     <script src="https://kit.fontawesome.com/51f1c1a39c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,25 +19,25 @@
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="index.html"><img src="images/pharmacy.png" height="92" width="92" alt=""></a>
+                      <a class="navbar-brand" href="index.html"><img src="../images/pharmacy.png" height="92" width="92" alt=""></a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto  mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link "  href="Rx-Drugs.html">RX DRUGS</a>
+                            <a class="nav-link" href="Rx-Drugs.html">RX DRUGS</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="Suppliments.html">SUPPLEMENTS
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="about.html">ABOUT ME
+                            <a class="nav-link active" aria-current="page" href="about.html">ABOUT ME
                             </a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="contact.html">CONTACT
+                            <a class="nav-link" href="contact.html">CONTACT
                             </a>
                           </li>
                           <li class="nav-item dropdown">
@@ -54,27 +56,35 @@
             </div>
         </section>
           <!-- nav part end -->
-    <section>
+    <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact text-center p-5 m-5">
-                        <p>Email Address: <a href="mailto:someone@example.com">abc@abc.com</a></p>
-                        <p>Phone Number: <a href="tel:+6494461709">+123456789</a></p>
-                        <p><i class="fa-brands fa-twitter"> @example</i>
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                        </p>
+                <div class="col-lg-6">
+                    <div class="my-left">
+                        <div class="card card-border" style="width: 100%;">
+                            <img src="../images/me2.jpg" class="card-img-top circle m-auto" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">ASHRAF MUGALLI</h5>
+                              <p class="card-text">Student at NJIT</p>
+                            </div>
+                          </div>
                     </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="my-right">
+                        <h2>About Me</h2>
+                        <p>I am an Information Technology major with a specialization in Networks & Security.</p>
+                        <p>Curently working as a Pharamcy technician, hoping for a career change</p>
+                        <p>This website is based on the knowledge I have with web development as well as pharmacy</p>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <script src="js/jquery-1.12.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/custom.js"></script>
 </body>
 </html>

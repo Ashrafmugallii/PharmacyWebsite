@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="51f1c1a39c" level="application" />
+    <orderEntry type="library" name="tp-widget-external-loader" level="application" />
   </component>
 </module>
